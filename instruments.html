@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Store</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #503030;
+      color: white;
+    }
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+</style>
+<body>
+    <header>
+        <h1>INSTRUMENTS<h1>
+    </header>
+    <form action="process_order.php" method="POST">
+  <table id="mytable">
+  <thead>
+    <tr>
+      <th><input type="checkbox" id="selectAll"> Select All</th>
+      <th>Instrument</th>
+      <th>Price Range (₹)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="checkbox"> 
+      <td>Acoustic Guitar</td>
+      <td>₹2,000 – ₹50,000</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Electric Guitar</td>
+      <td>₹6,000 – ₹1,50,000</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>Violin</td>
+      <td>₹11,200 – ₹15,990</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>Cello</td>
+      <td>₹45,000 – ₹1,00,000</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Sitar</td>
+      <td>₹10,000 – ₹80,000</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Sarod</td>
+      <td>₹25,000 – ₹1,50,000</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Veena</td>
+      <td>₹20,000 – ₹1,20,000</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Guitar (Beginner)</td>
+      <td>₹2,199 – ₹6,495</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Electric Guitar</td>
+      <td>₹8,000 – ₹90,000+</td>
+   </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Violin</td>
+      <td>₹29,990 – ₹159,990</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Cello</td>
+      <td>₹45,000 – ₹1,00,000+</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>Sitar</td>
+      <td>₹10,000 – ₹3,49,995</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"></td>
+      <td>Sarod</td>
+      <td>₹25,000 – ₹1,00,000+</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" ></td>
+      <td>Veena</td>
+      <td>₹20,000 – ₹1,00,000+</td>
+    </tr>
+  
+  </tbody>
+</table>
+<input type="submit" value=" Proceed to checkout">
+</form>
+<a href="visit.html"> Proceed to checkout</a>
+</body>
